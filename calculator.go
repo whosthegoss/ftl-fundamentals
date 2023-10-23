@@ -9,5 +9,9 @@ func Add(a, b float64) float64 {
 // Subtract takes two numbers and returns the result of subtracting the second
 // from the first.
 func Subtract(a, b float64) float64 {
-	return b - a
+	return a - b
+}
+
+func Multiply(a, b float64) float64 {
+	return a * b
 }
